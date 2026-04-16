@@ -1,0 +1,13 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-9.0.3, pluggy-1.6.0 -- C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission\.venv_cidl\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission
+configfile: pyproject.toml
+collecting ... collected 4 items
+
+tests/test_r3_sampling.py::test_r3_1_seeded_selection_is_reproducible PASSED [ 25%]
+tests/test_r3_sampling.py::test_r3_2_dgp_constrained_selection_matches_raw_truth_1 PASSED [ 50%]
+tests/test_r3_sampling.py::test_r3_2_dgp_constrained_selection_matches_raw_truth_2 PASSED [ 75%]
+tests/test_r3_sampling.py::test_r3_2_dgp_constrained_selection_matches_raw_truth_3 PASSED [100%]
+
+============================= 4 passed in 12.37s ==============================

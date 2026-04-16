@@ -1,0 +1,11 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-9.0.3, pluggy-1.6.0 -- C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission\.venv_cidl\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission
+configfile: pyproject.toml
+collecting ... collected 2 items
+
+tests/test_r2_truth.py::test_r2_1_dataset_and_truth_keys_derive_from_same_metadata_record PASSED [ 50%]
+tests/test_r2_truth.py::test_r2_2_same_selection_is_accepted_by_both_loaders PASSED [100%]
+
+============================= 2 passed in 13.84s ==============================

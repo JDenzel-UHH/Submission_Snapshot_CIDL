@@ -1,0 +1,15 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-9.0.3, pluggy-1.6.0 -- C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission\.venv_cidl\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission
+configfile: pyproject.toml
+collecting ... collected 6 items
+
+tests/test_r5_diagnostics.py::test_r5_1_invalid_endpoint_is_reported PASSED [ 16%]
+tests/test_r5_diagnostics.py::test_r5_1_missing_profile_is_reported PASSED [ 33%]
+tests/test_r5_diagnostics.py::test_r5_1_metadata_contract_violation_is_reported PASSED [ 50%]
+tests/test_r5_diagnostics.py::test_r5_1_missing_object_is_propagated PASSED [ 66%]
+tests/test_r5_diagnostics.py::test_r5_1_invalid_credentials_are_reported PASSED [ 83%]
+tests/test_r5_diagnostics.py::test_r5_1_permission_error_is_reported PASSED [100%]
+
+============================== 6 passed in 1.63s ==============================

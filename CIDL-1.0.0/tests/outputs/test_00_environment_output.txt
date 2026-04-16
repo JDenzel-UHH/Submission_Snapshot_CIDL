@@ -1,0 +1,13 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-9.0.3, pluggy-1.6.0 -- C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission\.venv_cidl\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission
+configfile: pyproject.toml
+collecting ... collected 4 items
+
+tests/test_00_environment.py::test_environment_installed_distribution_version PASSED [ 25%]
+tests/test_00_environment.py::test_environment_public_api_is_importable PASSED [ 50%]
+tests/test_00_environment.py::test_environment_config_resolves_defaults PASSED [ 75%]
+tests/test_00_environment.py::test_environment_live_s3_healthcheck SKIPPED [100%]
+
+======================== 3 passed, 1 skipped in 0.04s =========================
