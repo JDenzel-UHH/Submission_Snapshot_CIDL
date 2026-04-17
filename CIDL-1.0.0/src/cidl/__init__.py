@@ -7,7 +7,7 @@ Exposes the public API for connection, configuration, loading, metadata, and ind
 
 from __future__ import annotations
 
-__version__ = "0.6.0"
+__version__ = "0.7.0"
 __author__ = "Julian Denzel"
 
 
