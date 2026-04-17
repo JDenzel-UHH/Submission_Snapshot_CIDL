@@ -6,7 +6,7 @@ from cidl.config import get_config, reset_config
 
 
 def test_environment_installed_distribution_version():
-    assert md.version("cidl-uhh") == "0.6.0"
+    assert md.version("cidl-uhh") == "0.7.0"
 
 
 def test_environment_public_api_is_importable():
