@@ -26,9 +26,10 @@ def clear_metadata_cache() -> None:
 
 
 def _to_int_list(indices) -> list[int]:
-    """Normalize a single index or iterable of indices to a list of ints."""
     if isinstance(indices, numbers.Integral):
         return [int(indices)]
+    if isinstance(indices, (str, bytes)):
+        raise TypeError("indices must be an integer or an iterable of integers, not a string.")
     return [int(index) for index in indices]
 
 
