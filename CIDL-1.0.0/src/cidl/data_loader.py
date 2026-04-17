@@ -13,6 +13,8 @@ from typing import Iterator
 
 import pandas as pd
 
+import warnings
+
 import cidl.connection as con
 from cidl.objectkey_resolution import (
     _load_metadata,
@@ -133,7 +135,10 @@ def iter_datasets(
                 yield idx, load_parquet_key(key, columns=columns)
             except Exception as exc:
                 if on_error == "skip":
-                    print(f"[skip] idx={idx}: {exc}")
+                    warnings.warn(
+                        f"Skipping idx={idx}: {exc}",
+                        UserWarning,
+                    )
                     continue
                 raise
 
