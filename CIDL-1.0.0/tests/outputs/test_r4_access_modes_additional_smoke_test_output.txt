@@ -1,0 +1,6 @@
+============================= test session starts =============================
+collecting ... collected 1 item
+
+tests/test_r4_access_modes_additional_smoke_test.py::test_r4_2_sequential_iteration_smoke_large_batch PASSED
+
+======================== 1 passed in 331.00s (0:05:31) ========================
