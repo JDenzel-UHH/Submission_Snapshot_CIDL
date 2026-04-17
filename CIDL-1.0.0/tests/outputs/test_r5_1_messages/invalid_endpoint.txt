@@ -1,2 +1,0 @@
-ValueError
-CIDL_S3_ENDPOINT must be one of ['primary', 'site-1', 'site-2', 'site-3'] or a full URL, got: not-a-valid-endpoint
