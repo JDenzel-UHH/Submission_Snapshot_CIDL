@@ -35,7 +35,7 @@ If you have data- or modeling-related questions not covered there, see: [ACIC22 
 
 ## Installation
 
-CIDL is currently available on PyPI as beta version `0.6.0`. Version `1.0.0` will be released after the assessment.
+CIDL is currently available on PyPI as beta version `0.7.0`. Version `1.0.0` will be released after the assessment.
 
 ---
 
