@@ -27,6 +27,11 @@ def test_r1_1_valid_single__indices(require_live_s3, idx):
 def test_r1_1_invalid_single_indices(require_live_s3, idx):
     with pytest.raises(KeyError):
         cidl.load_datasets(idx)
+
+
+def test_r1_1_string_input_is_rejected():
+    with pytest.raises(TypeError):
+        cidl.load_datasets("12")
     
 
 
@@ -45,6 +50,7 @@ def test_r1_2_list_selection_normalization_invalid(require_live_s3):
 
     with pytest.raises(KeyError):
         cidl.load_datasets(selection)
+
 
 
 
