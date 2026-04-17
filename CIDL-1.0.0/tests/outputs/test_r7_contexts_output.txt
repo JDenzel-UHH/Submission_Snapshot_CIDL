@@ -8,4 +8,4 @@ collecting ... collected 2 items
 tests/test_r7_contexts.py::test_r7_1_same_loading_interface_across_contexts PASSED [ 50%]
 tests/test_r7_contexts.py::test_r7_2_active_context_is_exposed PASSED    [100%]
 
-============================== 2 passed in 9.51s ==============================
+============================= 2 passed in 11.12s ==============================

@@ -12,4 +12,4 @@ tests/test_r5_diagnostics.py::test_r5_1_missing_object_is_propagated PASSED [ 66
 tests/test_r5_diagnostics.py::test_r5_1_invalid_credentials_are_reported PASSED [ 83%]
 tests/test_r5_diagnostics.py::test_r5_1_permission_error_is_reported PASSED [100%]
 
-============================== 6 passed in 1.63s ==============================
+============================== 6 passed in 2.13s ==============================

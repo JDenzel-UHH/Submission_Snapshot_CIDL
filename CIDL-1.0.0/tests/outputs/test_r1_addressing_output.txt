@@ -3,18 +3,19 @@ platform win32 -- Python 3.12.7, pytest-9.0.3, pluggy-1.6.0 -- C:\Users\User\One
 cachedir: .pytest_cache
 rootdir: C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission
 configfile: pyproject.toml
-collecting ... collected 11 items
+collecting ... collected 12 items
 
-tests/test_r1_addressing.py::test_r1_1_valid_single__indices[1] PASSED   [  9%]
-tests/test_r1_addressing.py::test_r1_1_valid_single__indices[1700] PASSED [ 18%]
-tests/test_r1_addressing.py::test_r1_1_valid_single__indices[3400] PASSED [ 27%]
-tests/test_r1_addressing.py::test_r1_1_invalid_single_indices[0] PASSED  [ 36%]
-tests/test_r1_addressing.py::test_r1_1_invalid_single_indices[-1] PASSED [ 45%]
-tests/test_r1_addressing.py::test_r1_1_invalid_single_indices[3401] PASSED [ 54%]
-tests/test_r1_addressing.py::test_r1_2_list_selection_normalization PASSED [ 63%]
-tests/test_r1_addressing.py::test_r1_2_list_selection_normalization_invalid PASSED [ 72%]
-tests/test_r1_addressing.py::test_r1_2_range_selection_normalization PASSED [ 81%]
-tests/test_r1_addressing.py::test_r1_2_range_selection_normalization_invalid PASSED [ 90%]
+tests/test_r1_addressing.py::test_r1_1_valid_single__indices[1] PASSED   [  8%]
+tests/test_r1_addressing.py::test_r1_1_valid_single__indices[1700] PASSED [ 16%]
+tests/test_r1_addressing.py::test_r1_1_valid_single__indices[3400] PASSED [ 25%]
+tests/test_r1_addressing.py::test_r1_1_invalid_single_indices[0] PASSED  [ 33%]
+tests/test_r1_addressing.py::test_r1_1_invalid_single_indices[-1] PASSED [ 41%]
+tests/test_r1_addressing.py::test_r1_1_invalid_single_indices[3401] PASSED [ 50%]
+tests/test_r1_addressing.py::test_r1_1_string_input_is_rejected PASSED   [ 58%]
+tests/test_r1_addressing.py::test_r1_2_list_selection_normalization PASSED [ 66%]
+tests/test_r1_addressing.py::test_r1_2_list_selection_normalization_invalid PASSED [ 75%]
+tests/test_r1_addressing.py::test_r1_2_range_selection_normalization PASSED [ 83%]
+tests/test_r1_addressing.py::test_r1_2_range_selection_normalization_invalid PASSED [ 91%]
 tests/test_r1_addressing.py::test_r1_3_dataset_key_resolution_is_stable PASSED [100%]
 
-======================== 11 passed in 71.89s (0:01:11) ========================
+============================= 12 passed in 42.67s =============================

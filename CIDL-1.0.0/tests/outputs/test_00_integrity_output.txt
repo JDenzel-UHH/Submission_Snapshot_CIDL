@@ -17,4 +17,4 @@ tests/test_00_integrity.py::test_data_matches_raw_data[3093] PASSED      [ 81%]
 tests/test_00_integrity.py::test_data_matches_raw_data[3400] PASSED      [ 90%]
 tests/test_00_integrity.py::test_truth_matches_raw_ground_truth PASSED   [100%]
 
-======================== 11 passed in 91.76s (0:01:31) ========================
+======================== 11 passed in 73.64s (0:01:13) ========================

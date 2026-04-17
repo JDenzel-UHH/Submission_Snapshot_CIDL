@@ -9,4 +9,4 @@ tests/test_r4_access_modes.py::test_r4_1_in_memory_loading PASSED        [ 33%]
 tests/test_r4_access_modes.py::test_r4_2_sequential_iteration PASSED     [ 66%]
 tests/test_r4_access_modes.py::test_r4_3_local_download PASSED           [100%]
 
-============================= 3 passed in 36.59s ==============================
+============================= 3 passed in 17.01s ==============================

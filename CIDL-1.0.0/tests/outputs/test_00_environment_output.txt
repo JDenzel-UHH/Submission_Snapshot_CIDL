@@ -8,6 +8,6 @@ collecting ... collected 4 items
 tests/test_00_environment.py::test_environment_installed_distribution_version PASSED [ 25%]
 tests/test_00_environment.py::test_environment_public_api_is_importable PASSED [ 50%]
 tests/test_00_environment.py::test_environment_config_resolves_defaults PASSED [ 75%]
-tests/test_00_environment.py::test_environment_live_s3_healthcheck SKIPPED [100%]
+tests/test_00_environment.py::test_environment_live_s3_healthcheck PASSED [100%]
 
-======================== 3 passed, 1 skipped in 0.04s =========================
+============================== 4 passed in 1.06s ==============================

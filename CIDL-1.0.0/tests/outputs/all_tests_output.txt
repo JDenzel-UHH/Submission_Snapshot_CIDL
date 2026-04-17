@@ -1,0 +1,155 @@
+============================================================
+RUNNING: test_00_environment.py
+============================================================
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-9.0.3, pluggy-1.6.0 -- C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission\.venv_cidl\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission
+configfile: pyproject.toml
+collecting ... collected 4 items
+
+tests/test_00_environment.py::test_environment_installed_distribution_version PASSED [ 25%]
+tests/test_00_environment.py::test_environment_public_api_is_importable PASSED [ 50%]
+tests/test_00_environment.py::test_environment_config_resolves_defaults PASSED [ 75%]
+tests/test_00_environment.py::test_environment_live_s3_healthcheck PASSED [100%]
+
+============================== 4 passed in 1.06s ==============================
+============================================================
+RUNNING: test_00_integrity.py
+============================================================
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-9.0.3, pluggy-1.6.0 -- C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission\.venv_cidl\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission
+configfile: pyproject.toml
+collecting ... collected 11 items
+
+tests/test_00_integrity.py::test_data_matches_raw_data[1] PASSED         [  9%]
+tests/test_00_integrity.py::test_data_matches_raw_data[153] PASSED       [ 18%]
+tests/test_00_integrity.py::test_data_matches_raw_data[547] PASSED       [ 27%]
+tests/test_00_integrity.py::test_data_matches_raw_data[1195] PASSED      [ 36%]
+tests/test_00_integrity.py::test_data_matches_raw_data[1233] PASSED      [ 45%]
+tests/test_00_integrity.py::test_data_matches_raw_data[1480] PASSED      [ 54%]
+tests/test_00_integrity.py::test_data_matches_raw_data[2069] PASSED      [ 63%]
+tests/test_00_integrity.py::test_data_matches_raw_data[2395] PASSED      [ 72%]
+tests/test_00_integrity.py::test_data_matches_raw_data[3093] PASSED      [ 81%]
+tests/test_00_integrity.py::test_data_matches_raw_data[3400] PASSED      [ 90%]
+tests/test_00_integrity.py::test_truth_matches_raw_ground_truth PASSED   [100%]
+
+======================== 11 passed in 73.64s (0:01:13) ========================
+============================================================
+RUNNING: test_r1_addressing.py
+============================================================
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-9.0.3, pluggy-1.6.0 -- C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission\.venv_cidl\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission
+configfile: pyproject.toml
+collecting ... collected 12 items
+
+tests/test_r1_addressing.py::test_r1_1_valid_single__indices[1] PASSED   [  8%]
+tests/test_r1_addressing.py::test_r1_1_valid_single__indices[1700] PASSED [ 16%]
+tests/test_r1_addressing.py::test_r1_1_valid_single__indices[3400] PASSED [ 25%]
+tests/test_r1_addressing.py::test_r1_1_invalid_single_indices[0] PASSED  [ 33%]
+tests/test_r1_addressing.py::test_r1_1_invalid_single_indices[-1] PASSED [ 41%]
+tests/test_r1_addressing.py::test_r1_1_invalid_single_indices[3401] PASSED [ 50%]
+tests/test_r1_addressing.py::test_r1_1_string_input_is_rejected PASSED   [ 58%]
+tests/test_r1_addressing.py::test_r1_2_list_selection_normalization PASSED [ 66%]
+tests/test_r1_addressing.py::test_r1_2_list_selection_normalization_invalid PASSED [ 75%]
+tests/test_r1_addressing.py::test_r1_2_range_selection_normalization PASSED [ 83%]
+tests/test_r1_addressing.py::test_r1_2_range_selection_normalization_invalid PASSED [ 91%]
+tests/test_r1_addressing.py::test_r1_3_dataset_key_resolution_is_stable PASSED [100%]
+
+============================= 12 passed in 42.67s =============================
+============================================================
+RUNNING: test_r2_truth.py
+============================================================
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-9.0.3, pluggy-1.6.0 -- C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission\.venv_cidl\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission
+configfile: pyproject.toml
+collecting ... collected 2 items
+
+tests/test_r2_truth.py::test_r2_1_dataset_and_truth_keys_derive_from_same_metadata_record PASSED [ 50%]
+tests/test_r2_truth.py::test_r2_2_same_selection_is_accepted_by_both_loaders PASSED [100%]
+
+============================== 2 passed in 8.15s ==============================
+============================================================
+RUNNING: test_r3_sampling.py
+============================================================
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-9.0.3, pluggy-1.6.0 -- C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission\.venv_cidl\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission
+configfile: pyproject.toml
+collecting ... collected 4 items
+
+tests/test_r3_sampling.py::test_r3_1_seeded_selection_is_reproducible PASSED [ 25%]
+tests/test_r3_sampling.py::test_r3_2_dgp_constrained_selection_matches_raw_truth_1 PASSED [ 50%]
+tests/test_r3_sampling.py::test_r3_2_dgp_constrained_selection_matches_raw_truth_2 PASSED [ 75%]
+tests/test_r3_sampling.py::test_r3_2_dgp_constrained_selection_matches_raw_truth_3 PASSED [100%]
+
+============================= 4 passed in 10.41s ==============================
+============================================================
+RUNNING: test_r4_access_modes.py
+============================================================
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-9.0.3, pluggy-1.6.0 -- C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission\.venv_cidl\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission
+configfile: pyproject.toml
+collecting ... collected 3 items
+
+tests/test_r4_access_modes.py::test_r4_1_in_memory_loading PASSED        [ 33%]
+tests/test_r4_access_modes.py::test_r4_2_sequential_iteration PASSED     [ 66%]
+tests/test_r4_access_modes.py::test_r4_3_local_download PASSED           [100%]
+
+============================= 3 passed in 17.01s ==============================
+============================================================
+RUNNING: test_r5_diagnostics.py
+============================================================
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-9.0.3, pluggy-1.6.0 -- C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission\.venv_cidl\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission
+configfile: pyproject.toml
+collecting ... collected 6 items
+
+tests/test_r5_diagnostics.py::test_r5_1_invalid_endpoint_is_reported PASSED [ 16%]
+tests/test_r5_diagnostics.py::test_r5_1_missing_profile_is_reported PASSED [ 33%]
+tests/test_r5_diagnostics.py::test_r5_1_metadata_contract_violation_is_reported PASSED [ 50%]
+tests/test_r5_diagnostics.py::test_r5_1_missing_object_is_propagated PASSED [ 66%]
+tests/test_r5_diagnostics.py::test_r5_1_invalid_credentials_are_reported PASSED [ 83%]
+tests/test_r5_diagnostics.py::test_r5_1_permission_error_is_reported PASSED [100%]
+
+============================== 6 passed in 2.13s ==============================
+============================================================
+RUNNING: test_r6_credentials.py
+============================================================
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-9.0.3, pluggy-1.6.0 -- C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission\.venv_cidl\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission
+configfile: pyproject.toml
+collecting ... collected 3 items
+
+tests/test_r6_credentials.py::test_r6_1_no_credentials_embedded_in_submitted_artifacts PASSED [ 33%]
+tests/test_r6_credentials.py::test_r6_1_no_aws_credentials_files_in_submission PASSED [ 66%]
+tests/test_r6_credentials.py::test_r6_1_no_credentials_embedded_in_dist_artifacts PASSED [100%]
+
+============================== 3 passed in 4.12s ==============================
+============================================================
+RUNNING: test_r7_contexts.py
+============================================================
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-9.0.3, pluggy-1.6.0 -- C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission\.venv_cidl\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\User\OneDrive\Documents\1. Studium und Ausbildung\6. MA AWG Hamburg\5. Semester Masterarbeit\aus 4. Semester ³bertragen_Masterarbeit\Abgabe\CIDL_submission
+configfile: pyproject.toml
+collecting ... collected 2 items
+
+tests/test_r7_contexts.py::test_r7_1_same_loading_interface_across_contexts PASSED [ 50%]
+tests/test_r7_contexts.py::test_r7_2_active_context_is_exposed PASSED    [100%]
+
+============================= 2 passed in 11.12s ==============================

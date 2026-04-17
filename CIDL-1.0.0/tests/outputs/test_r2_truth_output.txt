@@ -8,4 +8,4 @@ collecting ... collected 2 items
 tests/test_r2_truth.py::test_r2_1_dataset_and_truth_keys_derive_from_same_metadata_record PASSED [ 50%]
 tests/test_r2_truth.py::test_r2_2_same_selection_is_accepted_by_both_loaders PASSED [100%]
 
-============================= 2 passed in 13.84s ==============================
+============================== 2 passed in 8.15s ==============================
