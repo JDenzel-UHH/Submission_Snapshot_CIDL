@@ -1,0 +1,2 @@
+ValueError
+Metadata must contain a non-empty 'simulations_prefix' string.

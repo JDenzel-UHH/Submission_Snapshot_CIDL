@@ -1,0 +1,2 @@
+RuntimeError
+AWS profile 'definitely-not-a-real-profile' not found. Create it in ~/.aws/credentials (Windows: C:\Users\<you>\.aws\credentials) or set CIDL_AWS_PROFILE.
